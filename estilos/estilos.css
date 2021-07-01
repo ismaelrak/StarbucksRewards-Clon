@@ -1,0 +1,87 @@
+/*****General Stylings***/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/**^*>Header Area^***/
+
+li,
+a,
+button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px 10px;
+}
+
+
+.logo {
+    cursor: pointer;
+    width: 5%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.bt-2 {
+    background: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+}
+
+.bt-3 {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+}
+
+
+.contenedor-verde {
+    width: 100%;
+    height: 40px;
+    background: #1E3932;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-verde p {
+    color: white;
+    font-size: 15px;
+    margin-left: 90px;
+
+}
